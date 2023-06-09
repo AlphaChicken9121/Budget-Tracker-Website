@@ -1,5 +1,11 @@
 # Budget-Tracker-Website
 HTML, CSS, PHP practice
+## how to run
+if you want to run this on your own system, you will need xampp
+1. after u get xampp running paste the "budget-tracker complete v1.0" folder into "C:\xampp\htdocs" folder
+2. download and import the "budget-tracker.sql" file into "http://localhost/phpmyadmin/"
+3. after this just paste in the url "http://localhost/budget-tracker%20complete%20v1.0/" and it should be running
+
 # Screenshots
 
 ## index
