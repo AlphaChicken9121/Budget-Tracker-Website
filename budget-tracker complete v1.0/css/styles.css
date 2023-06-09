@@ -1,0 +1,219 @@
+body{
+  margin: 0px;
+  color: #59e800;
+  font-family: 'Trebuchet MS', sans-serif;
+  background-color: black;
+}
+
+.body-padded{
+  padding:30px;
+}
+/* table{
+  width: 100%;
+}
+table,tr,th,td{
+  text-align: center;
+  padding: 10px;
+  color: white;
+  border-style: solid;
+  border-color: white;
+  border-collapse: collapse;
+} */
+
+table {
+  border-collapse: collapse;
+  border-color: white;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd){background-color: #262626}
+
+th {
+  background-color: #59e800;
+  color: black;
+}
+/*index/welcome page*/
+.intro{
+  padding-top: 200px;
+}
+.center-text{
+  text-align: center;
+}
+
+.navbar{
+  position: absolute;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #2e2e2e;
+  width: 100%;
+}
+
+.navbar-loggedin{
+  display: inline-block;
+  float: right;
+  margin-bottom: 30px;
+}
+
+.navbar a{
+  float: right;
+  display: inline-block;
+  margin-right: 30px;
+}
+.navbar a:active{
+  float: right;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.button{
+  text-decoration: none;
+  border-style: outset;
+  border-color: white;
+  color: #59e800;
+  margin: 5px;
+  background-color: #2e2e2e;
+  border-radius: 20px;
+  padding: 10px;
+}
+.button:active{
+  text-decoration: none;
+  border-style: inset;
+  border-color: white;
+  color: #59e800;
+  margin: 5px;
+  background-color: #2e2e2e;
+  border-radius: 20px;
+  padding: auto;
+}
+.small-button{
+  padding: 5px;
+  border-width: 1px;
+}
+
+/*login page*/
+.login-page{
+  padding-top: 200px;
+}
+.register-page{
+  padding-top: 150px;
+}
+.textfield-size{
+  text-align: center;
+  color: white;
+  background-color: #2e2e2e;
+  height: 30px;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.wide-textfield{
+  width: 300px;
+}
+
+.center-button{
+  text-align: center;
+  margin: 20px;
+}
+
+.wide-button{
+  padding: 10px 50px;
+}
+
+/*Register*/
+.text-center{
+  text-align: center;
+}
+
+/*dashboard*/
+.dashboard-navbar{
+  display: inline-block;
+  width: 96.9%;
+  height: 60px;
+  background-color: #2e2e2e;
+  padding: 20px;
+}
+
+.dashboard-navbar h3{
+  display: inline-block;
+  margin-right: 550px;
+}
+
+.selected-item{
+  display: inline-block;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.number-selector{
+  text-align: center;
+  background-color: #2e2e2e;
+  color: white;
+  height: 30px;
+  width: 150px;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.sidebar{
+  margin: 30px auto;
+  float: left;
+  display: inline;
+  padding-left: 30px;
+}
+
+.sidebar-item{
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  background-color: #242424;
+  display: block;
+  width: 200px;
+  text-align: center;
+  padding: 30px;
+  border-style: solid;
+  border-color: #59e800;
+}
+.sidebar-item:active{
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  background-color: #242424;
+  display: block;
+  width: 200px;
+  text-align: center;
+  padding: 30px;
+  border-style: solid;
+  border-color: #127000;
+}
+
+.addTransactionDiv{
+  width: 300px;
+  background-color: #242424;
+  padding: 30px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.inputLabel{
+  display: inline;
+  float: left;
+}
+
+.floatRight{
+  float: right;
+}
+
+.submitTransaction{
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+}
